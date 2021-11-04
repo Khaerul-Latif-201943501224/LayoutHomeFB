@@ -1,108 +1,156 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Home Facebook</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
-        .card {
-            padding: 10px;
-            box-shadow: 0px 4px 5px grey;
-            border-radius: 7px;
-            width: 290px;
-            height: 310px;
-        }
-
-        .inp {
-            padding: 10px;
-            margin: 10px;
-            width: 250px;
-            border-radius: 7px;
-        }
-        
-
-        .btn-login {
-            border-radius: 7px;
-            margin: 10px;
-            padding: 10px;
-            width: 275px;
-            text-align: center;
-            font-weight: bold;
+        * {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
             color: white;
-            background-color: #1877F2;
-            border: none;
-            transition: 0.3s;
-        }
-        .btn-regis {
-            border-radius: 7px;
-            margin: 10px;
-            padding: 10px;
-            width: 130px;
-            text-align: center;
-            font-weight: bold;
-            color: white;
-            background-color: #36A420;
-            border: none;
-            transition: 0.3s;
+            margin: 0 auto;
+            padding: 0 auto;
+
         }
 
-        .btn-login:hover {
-            background-color: #2581f7;
-        }
-        .btn-regis:hover {
-            background-color: #50a340;
-        }
-        
-        .txt {
-            float: left;
-            margin: 10px;
-            text-align:left ;
-            
-        }
-
-        .Home {
+        .biodata {
             margin: 10%;
             display: flex;
             align-items: center;
             justify-content: center;
         }
-        .Home > div {
-            margin: 10px;
-    padding: 20px;
-    
+
+        .card {
+            margin: auto;
+            align-items: center;
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 500px;
+            height: auto;
         }
 
-        .login {
-            float: right;
+        .bg-top {
+            background-image: url(bg.jpg);
+            height: 170px;
+            width: 500px;
+            margin: auto;
+        }
+
+        .bg-bottom {
+            background-color: #151B49;
+            height: 75%;
+            padding-left: 3%;
+            padding-right: 3%;
+            padding-top: 20%;
+            padding-bottom: 5%;
+        }
+
+        .pp {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            align-content: center;
+            display: inline-block;
+            border: 10px solid #151B49;
+            margin-top: 90px;
+            margin-left: 31%;
+        }
+
+        table {
+            margin-top: 25px;
+            padding-bottom: 35px;
+        }
+
+        h1,
+        span,
+        h3 {
+            font-weight: bold;
+            text-align: center;
+            align-items: center;
         }
     </style>
 </head>
+
 <body>
-    
-    <div class="Home">
-        <div class="txt">
-            
-            <H1 style="color: #1877F2;">Facebook</H1>
-            <p>Facebook membantu Anda terhubung <br> 
-                dan berbagi dengan orang-orang dalam <br>
-                kehidupan Anda</p>
-            
-        </div>
-        <center>
-        <div class="login">
+        <div class="biodata">
         <div class="card">
-            <input class="inp" type="text" placeholder="Email atau Nomor Telepon"><br>
-            <input class="inp" type="password" placeholder="Kata Sandi"><br>
-            <input class="btn-login" type="submit" value="Login"><br>
-            <center><b>
-                    <a style="font-size: 10px; color: #1877F2;" href="http://www.google.com">Lupa Kata Sandi?</a>
-                </b><hr/>
-                <input class="btn-regis" type="submit" value="Buat Akun Baru">
-            </center>    
+            <div class="bg-top">
+                <img class="pp" src="pp.jpeg" alt="Photo Profil">
+
+            </div>
+            <div class="bg-bottom">
+                <h1>Biodata Pribadi
+                    <hr size=“3”>
+                    </hr>
+                </h1>
+
+                <table>
+                    <tr>
+                        <td><span>NPM</span></td>
+                        <td>:</td>
+                        <td>201943501224</td>
+                    </tr>
+                    <tr>
+                        <td><span>Nama</span></td>
+                        <td>:</td>
+                        <td>Khaerul Latif</td>
+                    </tr>
+                    <tr>
+                        <td><span>Alamat</span></td>
+                        <td>:</td>
+                        <td>Jln. Tebet Barat Raya No.8</td>
+                    </tr>
+                    <tr>
+                        <td><span>No Telp</span></td>
+                        <td>:</td>
+                        <td>0822 9891 0170</td>
+                    </tr>
+                    <tr>
+                        <td><span>Agama</span></td>
+                        <td>:</td>
+                        <td>Islam</td>
+                    </tr>
+                    <tr>
+                        <td><span>Jenis Kelamin</span></td>
+                        <td>:</td>
+                        <td>Laki-Laki</td>
+                    </tr>
+                </table>
+                
+                    <h3>Riwayat Pendidikan
+                        <hr size=“1”>
+                        </hr>
+                    </h3>
+                
+
+                <table>
+                    <tr>
+                        <td><span>SD</span></td>
+                        <td>:</td>
+                        <td>SDN Tebet Timur 18 Pagi</td>
+                    </tr>
+                    <tr>
+                        <td><span>SMP</span></td>
+                        <td>:</td>
+                        <td>SMPS Muhammadiyah 36</td>
+                    </tr>
+                    <tr>
+                        <td><span>SMK</span></td>
+                        <td>:</td>
+                        <td>SMKS Cyber Media Jakarta</td>
+                    </tr>
+                    <tr>
+                        <td><span>Kuliah</span></td>
+                        <td>:</td>
+                        <td>Universitas Indraprasta PGRI(Sekarang)</td>
+                    </tr>
+                </table>
+                <h3>Copyright @2021 Khaerul Latif_R5P_201943501224</h2>
+            </div>
         </div>
-        <center>
-            <p style="font-size: 10px; margin: 20px;"><a style="font-weight: bold;"href="http://www.google.com">Buat Halaman</a> untuk selebriti, grup musik, atau bisnis.</p></center>
     </div>
-        
-    </div>
-</center>    
 </body>
+
 </html>
